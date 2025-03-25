@@ -1,5 +1,5 @@
 
-# Custm OpenAI API Proxy Server
+# Custom OpenAI API Proxy Server
 
 This is a simple proxy server for an OpenAI-compatible API. It allows you to route requests to another OpenAI-style server (like Gemma or DeepSeek) and provides basic authentication.  It's designed to be easily customizable with your own API keys, target URL, and model IDs.
 
