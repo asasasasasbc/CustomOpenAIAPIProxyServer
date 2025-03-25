@@ -105,7 +105,7 @@ async def chat_completions(request: Request):
                 top_p=top_p
             )
             for chunk in response:
-                # 如果chunk.choices为空，则打印usage
+                # print usage if usage is on
                 if not chunk.choices:
                     print("\nUsage:")
                     print(chunk.usage)
