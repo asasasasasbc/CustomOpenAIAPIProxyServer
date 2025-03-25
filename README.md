@@ -17,7 +17,7 @@ This project acts as a middleman between clients and an OpenAI-compatible backen
 1.  **Install dependencies:**
 
     ```bash
-    py -3.12 -m pip install fastapi uvicorn openai
+    pip install fastapi uvicorn openai
     ```
 
 ## Configuration
